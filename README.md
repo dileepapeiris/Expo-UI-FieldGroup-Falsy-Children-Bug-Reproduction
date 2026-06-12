@@ -17,6 +17,10 @@ This bug is fixed by [expo/expo#46874](https://github.com/expo/expo/pull/46874),
 `groupFieldGroupChildren` and `extractFieldSectionSlots` in `@expo/ui`'s universal `FieldGroup`
 implementation to skip `false` / `null` / `undefined` children produced by conditional rendering.
 
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/9001d1b4-8666-41fe-890f-249af01052ee" controls width="100%" style="max-width: 400px; margin: 20px 0;"></video>
+</div>
+
 ## What this reproduces
 
 In [`App.tsx`](./App.tsx), a `Picker` toggles `filterType` between `"always"` and `"custom"`.
