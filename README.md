@@ -58,7 +58,6 @@ that empty section/row disappears.
    npx expo run:android
    ```
 
-   You can also try `npx expo run:ios` or `npx expo start --web`.
 
 4. With `filterType` set to `"Always shown"` (the default), observe whether an empty section/row
    appears between "Filter Dropdown" and "Switch Toggle":
