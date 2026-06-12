@@ -5,6 +5,10 @@ A minimal Expo app that reproduces a bug in [`@expo/ui`](https://docs.expo.dev/v
 using `{condition && <FieldGroup.Section>...</FieldGroup.Section>}` and `condition` is `false`,
 `FieldGroup` rendered an empty, blank section/row instead of skipping it entirely.
 
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/70563d01-24b2-4aa5-b4be-05bc52f74038" controls width="100%" style="max-width: 400px; margin: 20px 0;"></video>
+</div>
+
 This was most visible on Android, where the empty section showed up as a blank Material `ListItem`.
 
 ## Fixed in
